@@ -1,13 +1,13 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import SignUpPage from "./pages/SignUpPage";
 
 const App = () => {
-  return (
-    <main>
-     <h1>Welcome to React</h1>
-    </main>
-  );
-}
+    return (
+        <>
+            <SignUpPage />
+        </>
+    );
+};
 
 export default App;
-
